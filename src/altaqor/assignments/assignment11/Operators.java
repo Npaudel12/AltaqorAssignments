@@ -42,12 +42,12 @@ public class Operators {
 	}
 	  // method for relational operators 
 	 public void relationalOperators() {
-		 boolean  result6 = a == b; // false i.e a>b , a= 40, b =20
+		 boolean  result6 = a == b; // false i.e a<b , a= 0 from line 34 b =20
 		 boolean result7 = a != b;  // true 
-		 boolean result8 =  a > b ; // true
-		 boolean result9 = a < b; // false
-		 boolean result10  = a >= b; //true
-		 boolean result11 = a <= b; // false
+		 boolean result8 =  a > b ; // false
+		 boolean result9 = a < b; // true
+		 boolean result10  = a >= b; //false
+		 boolean result11 = a <= b; // true
 		
 		 	System.out.println("Result of == operator: " + result6);
 			System.out.println("Result of != operator: " + result7);
