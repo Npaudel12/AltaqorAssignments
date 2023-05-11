@@ -16,17 +16,17 @@ public class LargestNumCalculation {
 		double num2 = sc.nextDouble();
 		
 		System.out.print("Please enter third number: ");
-		double num3 = sc.nextDouble(); 
+		double num3 = sc.nextDouble();
+		
 		double largest = num1;
 		
 		if (num2 > largest) {
-			largest = num2;
-			//System.out.println("Largest number is " + largest);
+			largest = num2;	
 		}
 		
 		 if (num3> largest) {
 			largest = num3;
-			//System.out.println("Largest number is " + largest);
+			
 		}
 		 System.out.println("Largest number is " + largest);
 		
