@@ -13,21 +13,17 @@ public class Question6 {
 		while(true) {
 		System.out.print("please enter the number: ");
 		int inputNum = sc.nextInt();
-		//sum = sum + inputNum;
-		
 		
 		if(inputNum<0) {
 			
-			continue;
-			
+			continue;	
 		} 
 		sum = sum + inputNum;
 		System.out.println("sum of the number you entered:  " + sum);
+	     sc.close();
 		}
 		
-		//System.out.println("sum of the number you entered " + sum);
 		
-   
+		
 	}
-	
 }
