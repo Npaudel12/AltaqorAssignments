@@ -31,7 +31,7 @@ public class BankAccount {
 	public   int withDraw(int withDrawAmount) {
 		
 		if (withDrawAmount > balance) {
-			System.out.println(" Sorry, you dont have enough money to withdarw.");
+			System.out.println("Sorry, you dont have enough money to withdarw.");
 		   balance = balance;
 		}else
 		
