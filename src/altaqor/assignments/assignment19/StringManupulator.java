@@ -16,5 +16,13 @@ public class StringManupulator {
 		return count;
 		
 	}
+	
+	//method loaded
+	public static int countOccurences(String str, String subtring) {
+		int count =0;
+		return count;
+		
+	}
 
 }
+// Need little bit guidence
